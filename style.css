@@ -50,6 +50,41 @@ button {
   --orange: hsla(31, 100%, 65%, 1);
 }
 
+/* typography */
+
+.heading-xl {
+  font: 400 72px/78px 'Epilogue', sans-serif;
+  letter-spacing: -1px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.heading-l {
+  font: 400 48px/56px 'Epilogue', sans-serif;
+  letter-spacing: -0.5px;
+}
+
+.heading-m {
+  font: 700 18px/32px 'Epilogue', sans-serif;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+}
+
+.heading-s {
+  font: 400 16px/26px 'Epilogue', sans-serif;
+  letter-spacing: -2.5px;
+  text-transform: uppercase;
+}
+
+.quote {
+  font: 400 20px/35px 'Epilogue', sans-serif;
+  letter-spacing: -2.5px;
+}
+
+/* *** */
+
 body {
   min-height: 100vh;
   line-height: 1.3;
