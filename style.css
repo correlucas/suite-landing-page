@@ -38,8 +38,16 @@ button {
 
 /* colors  */
 :root {
+  /* neutrals */
+  --black: hsla(219, 42%, 16%, 1);
+  --gray: hsla(218, 20%, 36%, 1);
+  --beige: hsla(30, 33%, 93%, 1);
+  --light-beige: hsla(30, 29%, 97%, 1);
+
   /* primary */
-  --dark-cyan: hsla(192, 37%, 48%, 1);
+  --purple: hsla(264, 100%, 69%, 1);
+  --violet: hsla(292, 76%, 54%, 1);
+  --orange: hsla(31, 100%, 65%, 1);
 }
 
 body {
@@ -48,4 +56,8 @@ body {
   text-rendering: optimizeSpeed;
   font-family: 'Epilogue', sans-serif;
   background-color: var(--white);
+}
+
+.container {
+  max-width: 1110px;
 }
