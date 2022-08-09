@@ -185,6 +185,7 @@ header {
   justify-items: center;
 
   padding-inline: 100px;
+  padding-block: 95px;
   border-radius: 15px;
   margin-bottom: 95px;
 
@@ -199,6 +200,9 @@ header {
   row-gap: 40px
 }
 
+picture img {
+  margin-top: -50px;
+}
 
 /* footer */
 
