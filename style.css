@@ -67,14 +67,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-top: 50px;
-  padding-bottom: 67px;
+  padding-bottom: 70px;
 }
 
 .container {
-  max-width: 1110px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1150px;
   margin: 0 auto;
+}
+
+main {
+  position: relative;
 }
 
 
@@ -82,14 +84,15 @@ header {
   display: flex;
   align-items: center;
   gap: 240px;
-  margin-block: 50px -260px;
+  margin-block: 50px 200px;
+  /* margin-block: 50px -260px; */
 }
 
 .hero-image {
   display: block;
   max-width: 100%;
-  transform: translate(475px, -250px);
-  position: relative;
+  transform: translate(495px, -680px);
+  position: absolute;
   z-index: -3;
 }
 
