@@ -72,25 +72,23 @@ header {
 
 .container {
   max-width: 1110px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
 }
 
-.container-margin {
-  margin-inline: 40px;
-}
 
 .hero {
   display: flex;
   align-items: center;
-  padding: 88px 0;
   gap: 240px;
-  margin-bottom: 200px;
+  margin-block: 50px -260px;
 }
 
 .hero-image {
   display: block;
   max-width: 100%;
-  transform: translate(475px, -725px);
+  transform: translate(475px, -250px);
   position: relative;
   z-index: -3;
 }
@@ -100,7 +98,7 @@ header {
 }
 
 .hero-text h1 {
-  padding-bottom: 60px;
+  padding-bottom: 42px;
 }
 
 .text-arch {
@@ -142,6 +140,7 @@ header {
   align-items: center;
   justify-items: center;
   gap: 30px;
+  padding-inline: 64px;
   border-radius: 15px;
   margin-bottom: 95px;
 
@@ -152,8 +151,8 @@ header {
 .quote-info {
   display: flex;
   flex-direction: column;
-  max-width: 350px;
-  row-gap: 40px;
+  max-width: 380px;
+  row-gap: 50px;
 }
 
 picture img {
