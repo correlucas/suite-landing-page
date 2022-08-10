@@ -145,19 +145,35 @@ header {
   display: flex;
   align-items: center;
   padding: 88px 0;
-  gap: 285px;
+  gap: 240px;
   margin-bottom: 200px;
+  position: relative;
+}
+
+.hero-image {
+  display: block;
+  max-width: 100%;
+  position: absolute;
+  /* left: 341px; */
+  transform: translate(475px, -725px);
+  z-index: -3;
+}
+
+.hero-text {
+  max-width: 680px;
 }
 
 .hero-text h1 {
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .hero-text p {
-  padding-bottom: 52px;
+  padding-bottom: 60px;
+  max-width: 365px;
 }
 
 .btn {
+  display: inline-flex;
   font: 400 16px/26px 'Epilogue', sans-serif;
   padding: 15px 32px;
   border-radius: 6px;
@@ -219,3 +235,9 @@ picture img {
   flex-direction: row;
   gap: 24px;
 }
+
+
+
+
+/* breakpoints */
+@media (max-width: 1040px) {}
