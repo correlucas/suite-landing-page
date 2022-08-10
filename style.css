@@ -266,11 +266,8 @@ blockquote {
   }
 
   .hero-image {
-    display: flex;
-    max-width: 100%;
     margin-left: 0;
     margin-top: 20px;
-    z-index: -3;
   }
 
   .hero-text-image {
@@ -289,6 +286,10 @@ blockquote {
     padding-inline: 120px;
   }
 
+
+  .quote {
+    grid-template-columns: 1fr;
+  }
 
   .heading-xl,
   .heading-xl-bold {
@@ -309,3 +310,11 @@ blockquote {
   }
 
 }
+
+@media (max-width: 880px) {
+  .hero-image {
+    margin-left: -100px;
+  }
+}
+
+@media (max-width: 660px) {}
