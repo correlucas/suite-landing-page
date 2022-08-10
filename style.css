@@ -184,8 +184,8 @@ header {
   align-items: center;
   justify-items: center;
 
+  gap: 50px;
   padding-inline: 100px;
-  padding-block: 95px;
   border-radius: 15px;
   margin-bottom: 95px;
 
@@ -197,10 +197,11 @@ header {
   display: flex;
   flex-direction: column;
   max-width: 350px;
-  row-gap: 40px
+  row-gap: 40px;
 }
 
 picture img {
+  max-width: 520px;
   margin-top: -50px;
 }
 
