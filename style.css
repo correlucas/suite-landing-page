@@ -282,10 +282,10 @@ blockquote {
 
   .stats {
     flex-direction: row;
-    justify-content: space-between;
-    padding-inline: 120px;
+    text-align: center;
+    gap: 80px;
+    justify-content: center;
   }
-
 
   .quote {
     grid-template-columns: 1fr;
