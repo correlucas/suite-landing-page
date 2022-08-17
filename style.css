@@ -285,10 +285,16 @@ blockquote {
     text-align: center;
     gap: 80px;
     justify-content: center;
+
   }
 
   .quote {
     grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .quote-info {
+    padding-bottom: 50px;
   }
 
   .heading-xl,
@@ -315,6 +321,8 @@ blockquote {
   .hero-image {
     margin-left: -100px;
   }
+
+
 }
 
 @media (max-width: 660px) {}
