@@ -284,8 +284,9 @@ blockquote {
     flex-direction: row;
     text-align: center;
     gap: 80px;
-    justify-content: center;
-
+    justify-content: space-between;
+    display: flex;
+    padding-inline: 40px;
   }
 
   .quote {
@@ -320,5 +321,141 @@ blockquote {
 @media (max-width: 880px) {
   .hero-image {
     margin-left: -100px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-text-image {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: ii;
+  }
+
+  .hero-image {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .hero {
+    margin-block: 50px;
+  }
+
+  .hero-text p {
+    padding-bottom: 32px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .text-arch {
+    transform: translateX(35px) scale(0.4) translateY(50px);
+  }
+
+  picture img {
+    max-width: 100%;
+    margin-top: initial;
+  }
+
+  .mobile-image {
+    margin-top: -180px;
+  }
+
+  .btn-black {
+    margin-bottom: 60px;
+    max-width: 100%;
+  }
+
+  .text-arch {
+    transform: translateX(110px) scale(0.7) translateY(5px);
+  }
+
+  .stats {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-inline: initial;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 250px;
+  }
+}
+
+@media (max-width: 520px) {
+  .mobile-image {
+    margin-top: -80px;
+  }
+
+  .heading-xl {
+    font: 400 32px/40px 'Epilogue', sans-serif;
+  }
+
+  .heading-xl-bold {
+    font: 600 38px/42px 'Epilogue', sans-serif;
+  }
+
+  .heading-l-bold {
+    font: 400 38px/42px 'Epilogue', sans-serif;
+  }
+
+  .heading-l {
+    font: 600 32px/40px 'Epilogue', sans-serif;
+  }
+
+  blockquote {
+    font: 400 18px/32px 'Epilogue', sans-serif;
+  }
+
+  .stats {
+    padding-bottom: 100px;
+  }
+
+  header {
+    display: flex;
+    padding-bottom: 24px;
+  }
+
+  .quote-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    row-gap: 32px;
+  }
+
+  .text-arch {
+    transform: translateX(75px) scale(0.4) translateY(40px);
+  }
+
+  .hero-text-image {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .footer {
+    margin-bottom: 72px;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .btn {
+    display: inline-flex;
+    font: 400 12px/26px 'Epilogue', sans-serif;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 330px) {
+  .text-arch {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    padding-bottom: 24px;
+    flex-direction: column;
+    gap: 20px;
   }
 }
