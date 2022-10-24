@@ -5,7 +5,7 @@
   padding: 0;
   text-decoration: 0;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1rem;
   list-style-type: none;
 }
 
@@ -66,16 +66,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 70px;
+  padding-top: 3.125rem;
+  padding-bottom: 4.375rem;
 }
 
 .container-margin {
-  margin: 0 30px;
+  margin: 0 1.875rem;
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 69.375rem;
   margin: 0 auto;
 }
 
@@ -88,8 +88,8 @@ main {
 .hero {
   display: flex;
   justify-content: space-between;
-  gap: 100px;
-  margin-block: 50px 200px;
+  gap: 6.25rem;
+  margin-block: 3.125rem 12.5rem;
 }
 
 .hero-text-image {
@@ -99,7 +99,7 @@ main {
 .hero-image {
   display: block;
   max-width: 100%;
-  margin-left: -206px;
+  margin-left: -12.875rem;
   z-index: -3;
 }
 
@@ -107,49 +107,49 @@ main {
 .stats {
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 4.375rem;
   align-self: stretch;
   justify-content: center;
-  margin-top: -50px;
+  margin-top: -3.125rem;
 }
 
 .hero-text {
-  max-width: 680px;
+  max-width: 42.5rem;
 }
 
 .hero-text h1 {
-  padding-bottom: 42px;
+  padding-bottom: 2.625rem;
 }
 
 .text-arch {
   content: url(./assets/pattern-curved-line-1.svg);
-  transform: translate(290px, -10px);
+  transform: translate(18.125rem, -0.625rem);
 }
 
 
 .hero-text p {
-  padding-bottom: 60px;
-  max-width: 365px;
+  padding-bottom: 3.75rem;
+  max-width: 22.8125rem;
 }
 
 .btn {
   display: inline-flex;
-  font: 400 16px/26px 'Epilogue', sans-serif;
-  padding: 15px 32px;
-  border-radius: 6px;
+  font: 400 1rem/1.625rem 'Epilogue', sans-serif;
+  padding: 0.9375rem 2rem;
+  border-radius: 0.375rem;
   font-weight: 700;
   color: var(--black);
 }
 
 .btn-white {
   background-color: rgba(255, 255, 255, 0);
-  border: 1px solid var(--black);
+  border: 0.0625rem solid var(--black);
 }
 
 .btn-black {
   color: var(--beige);
   background-color: hsla(219, 43%, 16%, 1);
-  border: 1px solid var(--black);
+  border: 0.0625rem solid var(--black);
 }
 
 /* quote section */
@@ -159,10 +159,10 @@ main {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  gap: 30px;
-  padding-inline: 64px;
-  border-radius: 15px;
-  margin-bottom: 95px;
+  gap: 1.875rem;
+  padding-inline: 4rem;
+  border-radius: 0.9375rem;
+  margin-bottom: 5.9375rem;
 
   background-color: var(--black);
   color: var(--light-beige);
@@ -171,13 +171,13 @@ main {
 .quote-info {
   display: flex;
   flex-direction: column;
-  max-width: 380px;
-  row-gap: 50px;
+  max-width: 23.75rem;
+  row-gap: 3.125rem;
 }
 
 picture img {
-  max-width: 520px;
-  margin-top: -50px;
+  max-width: 32.5rem;
+  margin-top: -3.125rem;
 }
 
 /* footer */
@@ -186,13 +186,13 @@ picture img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 72px;
+  margin-bottom: 4.5rem;
 }
 
 .social {
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 
@@ -200,8 +200,8 @@ picture img {
 
 .heading-xl,
 .heading-xl-bold {
-  font: 400 72px/78px 'Epilogue', sans-serif;
-  letter-spacing: -1px;
+  font: 400 4.5rem/4.875rem 'Epilogue', sans-serif;
+  letter-spacing: -0.0625rem;
   color: var(--black);
 }
 
@@ -211,8 +211,8 @@ picture img {
 
 .heading-l,
 .heading-l-bold {
-  font: 400 48px/56px 'Epilogue', sans-serif;
-  letter-spacing: -0.5px;
+  font: 400 3rem/3.5rem 'Epilogue', sans-serif;
+  letter-spacing: -0.0313rem;
 }
 
 .heading-l-bold {
@@ -220,38 +220,38 @@ picture img {
 }
 
 .heading-m {
-  font: 700 18px/32px 'Epilogue', sans-serif;
-  letter-spacing: -0.2px;
+  font: 700 1.125rem/2rem 'Epilogue', sans-serif;
+  letter-spacing: -0.0125rem;
   text-transform: uppercase;
 }
 
 .heading-s {
-  font: 400 16px/26px 'Epilogue', sans-serif;
-  letter-spacing: 2.5px;
+  font: 400 1rem/1.625rem 'Epilogue', sans-serif;
+  letter-spacing: 0.1563rem;
   text-transform: uppercase;
 }
 
 .body {
-  font: 400 18px/32px 'Epilogue', sans-serif;
-  letter-spacing: 0px;
+  font: 400 1.125rem/2rem 'Epilogue', sans-serif;
+  letter-spacing: 0rem;
 }
 
 .footer-p {
-  font: 400 15/32px 'Epilogue', sans-serif;
-  letter-spacing: 0px;
+  font: 400 15/2rem 'Epilogue', sans-serif;
+  letter-spacing: 0rem;
   color: var(--gray);
 }
 
 
 blockquote {
-  font: 400 20px/35px 'Epilogue', sans-serif;
-  letter-spacing: 0.1px;
+  font: 400 1.25rem/2.1875rem 'Epilogue', sans-serif;
+  letter-spacing: 0.0063rem;
 }
 
 
 .highlight {
-  font: 700 48px/56px 'Epilogue', sans-serif;
-  letter-spacing: -0.5px;
+  font: 700 3rem/3.5rem 'Epilogue', sans-serif;
+  letter-spacing: -0.0313rem;
   text-transform: uppercase;
   color: var(--black);
 }
@@ -259,7 +259,7 @@ blockquote {
 
 
 /* breakpoints */
-@media (max-width: 1080px) {
+@media (max-width: 67.5rem) {
 
   .hero {
     flex-direction: column;
@@ -267,26 +267,26 @@ blockquote {
 
   .hero-image {
     margin-left: 0;
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   .hero-text-image {
     display: flex;
-    padding-bottom: 80px;
+    padding-bottom: 5rem;
     justify-content: space-between;
   }
 
   .hero-text {
-    max-width: 540px;
+    max-width: 33.75rem;
   }
 
   .stats {
     flex-direction: row;
     text-align: center;
-    gap: 80px;
+    gap: 5rem;
     justify-content: space-between;
     display: flex;
-    padding-inline: 40px;
+    padding-inline: 2.5rem;
   }
 
   .quote {
@@ -295,13 +295,13 @@ blockquote {
   }
 
   .quote-info {
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
   }
 
   .heading-xl,
   .heading-xl-bold {
-    font: 400 56px/64px 'Epilogue', sans-serif;
-    letter-spacing: -0.7px;
+    font: 400 3.5rem/4rem 'Epilogue', sans-serif;
+    letter-spacing: -0.0437rem;
   }
 
   .heading-xl-bold {
@@ -309,22 +309,22 @@ blockquote {
   }
 
   .text-arch {
-    transform: translateX(190px) scale(0.7) translateY(5px);
+    transform: translateX(11.875rem) scale(0.7) translateY(0.3125rem);
   }
 
   .body {
-    font: 400 16px/28px 'Epilogue', sans-serif;
+    font: 400 1rem/1.75rem 'Epilogue', sans-serif;
   }
 
 }
 
-@media (max-width: 880px) {
+@media (max-width: 55rem) {
   .hero-image {
-    margin-left: -100px;
+    margin-left: -6.25rem;
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 40rem) {
   .hero-text-image {
     display: flex;
     flex-direction: column;
@@ -334,22 +334,22 @@ blockquote {
   }
 
   .hero-image {
-    margin-left: 0px;
-    margin-top: 0px;
+    margin-left: 0rem;
+    margin-top: 0rem;
   }
 
   .hero {
-    margin-block: 50px;
+    margin-block: 3.125rem;
   }
 
   .hero-text p {
-    padding-bottom: 32px;
-    max-width: 500px;
+    padding-bottom: 2rem;
+    max-width: 31.25rem;
     margin: 0 auto;
   }
 
   .text-arch {
-    transform: translateX(35px) scale(0.4) translateY(50px);
+    transform: translateX(2.1875rem) scale(0.4) translateY(3.125rem);
   }
 
   picture img {
@@ -358,16 +358,16 @@ blockquote {
   }
 
   .mobile-image {
-    margin-top: -180px;
+    margin-top: -11.25rem;
   }
 
   .btn-black {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
     max-width: 100%;
   }
 
   .text-arch {
-    transform: translateX(110px) scale(0.7) translateY(5px);
+    transform: translateX(6.875rem) scale(0.7) translateY(0.3125rem);
   }
 
   .stats {
@@ -376,96 +376,96 @@ blockquote {
     justify-content: center;
     padding-inline: initial;
     flex-direction: column;
-    gap: 40px;
-    padding-bottom: 250px;
+    gap: 2.5rem;
+    padding-bottom: 15.625rem;
   }
 }
 
 
-@media (max-width: 520px) {
+@media (max-width: 32.5rem) {
   .hero-text h1 {
-    padding-bottom: 42px;
-    max-width: 400px;
+    padding-bottom: 2.625rem;
+    max-width: 25rem;
     margin: 0 auto;
   }
 
   .mobile-image {
-    margin-top: -80px;
+    margin-top: -5rem;
   }
 
   .heading-xl {
-    font: 400 32px/40px 'Epilogue', sans-serif;
+    font: 400 2rem/2.5rem 'Epilogue', sans-serif;
   }
 
   .heading-xl-bold {
-    font: 600 38px/42px 'Epilogue', sans-serif;
+    font: 600 2.375rem/2.625rem 'Epilogue', sans-serif;
   }
 
   .heading-l-bold {
-    font: 400 38px/42px 'Epilogue', sans-serif;
+    font: 400 2.375rem/2.625rem 'Epilogue', sans-serif;
   }
 
   .heading-l {
-    font: 600 32px/40px 'Epilogue', sans-serif;
+    font: 600 2rem/2.5rem 'Epilogue', sans-serif;
   }
 
   blockquote {
-    font: 400 18px/32px 'Epilogue', sans-serif;
+    font: 400 1.125rem/2rem 'Epilogue', sans-serif;
   }
 
   .stats {
-    padding-bottom: 100px;
+    padding-bottom: 6.25rem;
   }
 
   header {
     display: flex;
-    padding-bottom: 24px;
+    padding-bottom: 1.5rem;
   }
 
   .quote-info {
     display: flex;
     flex-direction: column;
-    max-width: 380px;
-    row-gap: 32px;
+    max-width: 23.75rem;
+    row-gap: 2rem;
   }
 
   .text-arch {
-    transform: translateX(45px) scale(0.4) translateY(40px);
+    transform: translateX(2.8125rem) scale(0.4) translateY(2.5rem);
   }
 
   .hero-text-image {
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
     justify-content: space-between;
   }
 
   .footer {
-    margin-bottom: 72px;
-    gap: 30px;
+    margin-bottom: 4.5rem;
+    gap: 1.875rem;
     flex-direction: column;
   }
 
   .btn {
     display: inline-flex;
-    font: 400 12px/26px 'Epilogue', sans-serif;
-    padding: 10px 18px;
-    border-radius: 6px;
+    font: 400 0.75rem/1.625rem 'Epilogue', sans-serif;
+    padding: 0.625rem 1.125rem;
+    border-radius: 0.375rem;
     font-weight: 700;
   }
 }
 
 
 
-@media (max-width: 360px) {
+@media (max-width: 22.5rem) {
   .text-arch {
     display: none;
   }
 
   header {
     display: flex;
-    padding-bottom: 24px;
+    padding-bottom: 1.5rem;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
   }
 }
 
@@ -485,14 +485,14 @@ blockquote {
 
   .btn-black {
     transition: all ease 0.3s;
-    border: 0px solid;
+    border: 0rem solid;
   }
 
   .btn-black:hover {
     background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
     transition: all ease 0.3s;
     cursor: pointer;
-    border: 0px solid;
+    border: 0rem solid;
   }
 
   .logo:hover,
@@ -545,7 +545,7 @@ blockquote {
 
 @keyframes slideInTop {
   0% {
-    transform: translateY(-150px);
+    transform: translateY(-9.375rem);
     opacity: 0;
   }
 
@@ -557,7 +557,7 @@ blockquote {
 
 @keyframes slideInLeft {
   0% {
-    transform: translateX(150px);
+    transform: translateX(9.375rem);
     opacity: 0;
   }
 
@@ -569,7 +569,7 @@ blockquote {
 
 @keyframes slideInBottom {
   0% {
-    transform: translateY(150px);
+    transform: translateY(9.375rem);
     opacity: 0;
   }
 
